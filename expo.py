@@ -1,6 +1,6 @@
-def Exponenential_function(base , exponent):
-    result = 1
-    for i in range(exponent):
-        result = result * base
-    return result
-print(Exponenential_function(3,5))
+def Exponenential_function(a, b):
+    c = 1
+    for i in range(b):
+        c = c * a
+    return c
+print(Exponenential_function(3,9))
