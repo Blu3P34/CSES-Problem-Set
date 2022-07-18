@@ -1,10 +1,8 @@
-a = input()
-k = m = 1
-for ele in range(1,len(a)) :
-    if a[ele] == a[ele - 1] :
-        k = k + 1
-        m = k if k > m else m 
-    else : 
-        k = 1
-print(m)
+x = y = 1
+z = ""
+for ele in input() :
+    x = x + 1 if z == ele else 1
+    y = x if x >= y else y
+    z = ele
+print(y)
 

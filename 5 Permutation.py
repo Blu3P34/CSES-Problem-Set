@@ -9,8 +9,5 @@ else :
     else :
         while k != m :
             print(k, end = " ")
-            if k + 2 <= n :
-                k = k + 2
-            else :
-                k = 1
+            k = k + 2 if k + 2 <= n else 1
         print(m)
