@@ -1,11 +1,10 @@
-#The math is roght, put Python takes to much damn time to compile
+#The math is right, put Python takes to much damn time to compile
 
 n = int(input())
-f = 1
+f = 5
 i = 0
-for ele in range(2, n + 1) :
-    while ele %5 == 0 :
-        ele = ele//5
-        i = i + 1
+while n >= f :
+    i += n//f
+    f *= 5
 print(i)
 
